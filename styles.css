@@ -1,0 +1,44 @@
+/* background website color */
+.container-fluid {
+    background-color: black;
+}
+
+.back-img {
+    /* height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.jumbotron {
+    background-color: rgba(41, 41, 41, 0.637);
+}
+
+.name {
+    color: rgb(144, 156, 146);
+    font-family: impact;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(10, 9, 9);
+}
+
+.un-constr {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-family: Impact;
+    text-shadow: 2px 2px darkgrey;
+}
+
+.row1 {}
+
+.objective {
+    background-color: black;
+    padding-left: 40px;
+}
+
+.objCont {
+    padding-left: 30px;
+}
+
+.row2 {}
