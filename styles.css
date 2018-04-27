@@ -19,15 +19,25 @@
     color: rgb(144, 156, 146);
     font-family: impact;
     font-weight: bold;
-    text-shadow: 2px 2px rgb(10, 9, 9);
+    text-shadow: 4px 6px rgb(10, 9, 9);
 }
 
 .un-constr {
-    background-color: yellow;
-    color: black;
+    background-image: url("http://moziru.com/images/stripe-clipart-caution-16.jpg");
+    
+}
+
+.const-bg {
+    background-color: black;
+    
+}
+
+.const-words {
+    color: rgb(234, 250, 6);
     font-weight: bold;
-    font-family: Impact;
-    text-shadow: 2px 2px darkgrey;
+    font-stretch: expanded;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px rgb(92, 94, 73);
 }
 
 .row1 {}
@@ -42,3 +52,32 @@
 }
 
 .row2 {}
+
+.highlights {
+
+}
+
+.objContHOQ {
+
+}
+
+.row3 {
+    display: flex;
+}
+
+.tech {
+
+}
+
+.ttb {
+    background-color: rgb(144, 156, 146);
+}
+
+.sttb {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    min-height: 10px;
+}
