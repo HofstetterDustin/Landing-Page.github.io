@@ -3,14 +3,6 @@
     background-color: black;
 }
 
-.back-img {
-    /* height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-
 .jumbotron {
     background-color: rgba(41, 41, 41, 0.637);
 }
@@ -40,7 +32,7 @@
     text-shadow: 2px 2px 2px rgb(92, 94, 73);
 }
 
-.row1 {}
+/* .row1 {} */
 
 .objective {
     background-color: black;
@@ -51,23 +43,17 @@
     padding-left: 30px;
 }
 
-.row2 {}
+/* .row2 {} */
 
-.highlights {
+/* .highlights {} */
 
-}
-
-.objContHOQ {
-
-}
+/* .objContHOQ {} */
 
 .row3 {
     display: flex;
 }
 
-.tech {
-
-}
+/* .tech {} */
 
 .ttb {
     background-color: rgb(144, 156, 146);
