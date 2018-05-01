@@ -13,13 +13,14 @@
 }
 
 .rtcol {
-    display: inline-flex p-2; 
+    display: flex; 
+    justify-content: end;
    
 }
 
-.jumbotron {
+/* .jumbotron {
     background-color: rgba(169, 211, 174, 0.726);
-}
+} */
 
 .name {
     color: rgb(172, 184, 175);
