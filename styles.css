@@ -3,25 +3,38 @@
     background-color: black;
 }
 
+.back-img {
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg");
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rtcol {
+    display: inline-flex p-2; 
+   
+}
+
 .jumbotron {
-    background-color: rgba(41, 41, 41, 0.637);
+    background-color: rgba(169, 211, 174, 0.726);
 }
 
 .name {
-    color: rgb(144, 156, 146);
+    color: rgb(172, 184, 175);
     font-family: impact;
     font-weight: bold;
-    text-shadow: 4px 6px rgb(10, 9, 9);
+    /* text :rgb(5, 110, 2); */
+    text-shadow: 4px 6px rgb(7, 7, 7);
 }
 
 .un-constr {
     background-image: url("http://moziru.com/images/stripe-clipart-caution-16.jpg");
-    
 }
 
 .const-bg {
     background-color: black;
-    
 }
 
 .const-words {
@@ -35,7 +48,9 @@
 /* .row1 {} */
 
 .objective {
-    background-color: black;
+    background-color: rgb(92, 94, 73, 0.2);
+    color: rgb(144, 156, 146);
+    text-shadow: 2px 2px 2px rgb(5, 110, 2);
     padding-left: 40px;
 }
 
@@ -45,15 +60,27 @@
 
 /* .row2 {} */
 
-/* .highlights {} */
+.highlights {
+    background-color: rgb(92, 94, 73, 0.2);
+    color: rgb(144, 156, 146);
+    text-shadow: 2px 2px 2px rgb(5, 110, 2);
+    padding-left: 40px;
+}
 
-/* .objContHOQ {} */
+.objContHOQ {
+    padding-left: 30px;
+}
 
 .row3 {
     display: flex;
 }
 
-/* .tech {} */
+.tech {
+    background-color: rgb(92, 94, 73, 0.2);
+    color: rgb(144, 156, 146);
+    text-shadow: 2px 2px 2px rgb(5, 110, 2);
+    padding-left: 40px;
+}
 
 .ttb {
     background-color: rgb(144, 156, 146);
