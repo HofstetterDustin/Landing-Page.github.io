@@ -72,6 +72,10 @@
     padding-left: 30px;
 }
 
+.tech {
+    min-height: 100px;
+}
+
 /* Drop-Down Color Theme */
 
 a {
@@ -103,7 +107,7 @@ li {
 }
 
 li a {
-    color:#fff;
+    color:rgb(248, 250, 248);
 }
 
 li:hover {
@@ -136,5 +140,8 @@ ul li ul li {
 
 .footer {
     background-color: black;
+    color: rgb(144, 156, 146);
+    text-shadow: 2px 2px 2px rgb(5, 110, 2);
     min-height: 10px;
+    justify-content: center;
 }
