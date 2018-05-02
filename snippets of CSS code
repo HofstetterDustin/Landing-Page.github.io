@@ -1,0 +1,19 @@
+TODO:delete below section if above drop-down section works correctly.
+.row3 {
+    display: flex;
+}
+ 
+.tech {
+    background-color: rgb(92, 94, 73, 0.2);
+    color: rgb(144, 156, 146);
+    text-shadow: 2px 2px 2px rgb(5, 110, 2);
+    padding-left: 40px;
+}
+
+.ttb {
+    background-color: rgb(144, 156, 146);
+}
+
+.sttb {
+    background-color: black;
+}

@@ -1,0 +1,34 @@
+ <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#"></a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mechanical Tool Sets
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">.</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Electrical Tool Sets
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#"></a>
+                        </div>
+                    </div> -->
+               
+<!-- Tech. Toolbox Software Content -->
+                <!-- <div class="stbc col-sm-4"> <!-- sub tool box content -->
+                <!-- </div> -->
+<!-- Tech. Toolbox Mech. Content -->
+                <!-- <div class="stbc col-sm-4">
+                    <p></p>
+                </div> -->
+<!-- Tech. Toolbox Elect. Content -->
+                <!-- <div class="stbc col-sm-4">
+                    <p></p>
+                </div> -->
