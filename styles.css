@@ -46,7 +46,7 @@
     text-shadow: 2px 2px 2px rgb(92, 94, 73);
 }
 
-/* .row1 {} */
+/* .d2 {} */
 
 .objective {
     background-color: rgb(92, 94, 73, 0.2);
@@ -59,7 +59,7 @@
     padding-left: 30px;
 }
 
-/* .row2 {} */
+/* .d3 {} */
 
 .highlights {
     background-color: rgb(92, 94, 73, 0.2);
@@ -73,14 +73,15 @@
 }
 
 .tech {
-    min-height: 100px;
+    min-height: 50px;
+    background-color:  rgb(92, 94, 73, 0.2);
     color: rgb(144, 156, 146);
     text-shadow: 2px 2px 2px rgb(5, 110, 2);
     padding-left: 30px;
 }
 
 /* ToolBox header direction */
-.r3 {
+.d4 {
     display: flex;
     flex-direction: column;
 }
@@ -101,7 +102,9 @@ nav {
 }
 
 ul {
-    background: rgb(71, 71, 71);
+    background: rgb(224, 5, 5);     /* This must cancel any framework adjustments */
+    display: block;
+    justify-content: space-evenly;
         list-style: none;
         margin: 0;
         padding-left: 0;
@@ -110,34 +113,35 @@ ul {
 /* Drop-Down Menu Styling */
 
 li {
-        color: #fff;
+        color: black;  
+        font-size: 20px;             /* font color */ 
     background: rgb(71, 71, 71);
-        display: block;
+        display: block;               /* vertical positioning of drop-down columns */
         float: left;
-        padding: 1rem;
-        position: relative;
+        padding: 5px;                 /* spacing around the text in the drop-down */
+        position: relative;           /* spacing of the drop-down columns */
         text-decoration: none;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
 }
 
 li a {
-    color:rgb(248, 250, 248);
+    color:rgb(242, 243, 242);
 }
 
 li:hover {
-    background: red;
+    background: rgb(53, 248, 4);  /* hover color */
     cursor: pointer;
 }
 
 ul li ul {
-        background: rgb(71,71,71);
-        visibility: hidden;
+        background: rgb(250, 3, 3);
+        visibility: hidden;                 /* hides the drop-down */
     opacity: 0;
     min-width: 5rem;
         position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;
-        left: 100;
+        left: 30px;                      /* adjusts the drop-down left position */
 }
 
 ul li:hover > ul,
@@ -150,6 +154,10 @@ ul li ul:hover {
 ul li ul li {
         clear: both;
     width: 100%;
+}
+
+.space {
+    min-height: 500px;
 }
 
 .footer {
