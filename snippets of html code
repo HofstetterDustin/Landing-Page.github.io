@@ -32,3 +32,110 @@
                 <!-- <div class="stbc col-sm-4">
                     <p></p>
                 </div> -->
+
+//SCROLING PARALLAX ATTEMPT 2//
+<div class="wrapper">
+        <section class="section parallax bg1">
+            <h1>ROBOTICS</h1> 
+        </section>
+        <section class="section parallax static">
+            <h1>SOFTWARE DEVELOPMENT</h1>
+        </section>
+        <section class="section parallax bg2">
+            <h1>ENGINEERING</h1>
+        </section>
+    </div>
+
+//SLIDER SETUP//
+<div id="content-slider">
+            <div id="slider">
+                <!-- Slider container -->
+                <div id="mask">
+                    <!-- Mask -->
+
+                    <ul>
+                        <li id="first" class="firstanimation">
+                            <!-- ID for tooltip and class for animation -->
+                            <a href="#">
+                                <img src="https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg" alt="Robotics" /> </a>
+                            <div class="tooltip">
+                                <h1>Robotics</h1>
+                            </div>
+                        </li>
+
+                        <li id="second" class="secondanimation">
+                            <a href="#">
+                                <img src="https://lagahe.com/wp-content/uploads/2016/11/Desarrollador-de-software.jpg" alt="Software Development"
+                                /> </a>
+                            <div class="tooltip">
+                                <h1>Software Development</h1>
+                            </div>
+                        </li>
+
+                        <li id="third" class="thirdanimation">
+                            <a href="#">
+                                <img src="http://www.ame.arizona.edu/sites/all/themes/danland/images/slideshows/engr4.jpg" alt="Mechanical Engineering"
+                                /> </a>
+                            <div class="tooltip">
+                                <h1>Mechanical Engineering</h1>
+                            </div>
+                        </li>
+
+                        <li id="fourth" class="fourthanimation">
+                            <a href="#">
+                                <img src="https://www.exponent.com/~/media/practices-capabilities-and-industries/eecs/eecs_1250x450px.jpg" alt="Electrical Engineering" /> </a>
+                            <div class="tooltip">
+                                <h1>Electrical Engineering</h1>
+                            </div>
+                        </li>
+
+                        <li id="fifth" class="fifthanimation">
+                            <a href="#">
+                                <img src="https://www.exponent.com/~/media/practices-capabilities-and-industries/eecs/eecs_1250x450px.jpg"
+                                    alt="Designing" /> </a>
+                            <div class="tooltip">
+                                <h1>Designing</h1>
+                            </div>
+                        </li>
+                    </ul>
+                </div>   <!-- End Mask -->
+            <div class="progress-bar"></div>  <!-- Progress Bar -->
+            </div>    <!-- End Slider Container -->
+        </div>
+
+//CARASELL ATTEMPT//
+<div class="sp-slideshow">
+			
+                    <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+                    <label for="button-1" class="button-label-1"></label>
+                    
+                    <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+                    <label for="button-2" class="button-label-2"></label>
+                    
+                    <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+                    <label for="button-3" class="button-label-3"></label>
+                    
+                    <input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+                    <label for="button-4" class="button-label-4"></label>
+                    
+                    <input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+                    <label for="button-5" class="button-label-5"></label>
+                    
+                    <label for="button-1" class="sp-arrow sp-a1"></label>
+                    <label for="button-2" class="sp-arrow sp-a2"></label>
+                    <label for="button-3" class="sp-arrow sp-a3"></label>
+                    <label for="button-4" class="sp-arrow sp-a4"></label>
+                    <label for="button-5" class="sp-arrow sp-a5"></label>
+                    
+                    <div class="sp-content">
+                        <div class="sp-parallax-bg"></div>
+                        <ul class="sp-slider clearfix">
+                            <li><img src="https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg" alt="Robotics" /></li>
+                            <li><img src="https://lagahe.com/wp-content/uploads/2016/11/Desarrollador-de-software.jpg" alt="Software Development" /></li>
+                            <li><img src="http://www.ame.arizona.edu/sites/all/themes/danland/images/slideshows/engr4.jpg" alt="Mechanical Engineering" /></li>
+                            <li><img src="https://www.exponent.com/~/media/practices-capabilities-and-industries/eecs/eecs_1250x450px.jpg" alt="Electrical Engineering" /></li>
+                            <li><img src="https://res.cloudinary.com/engineering-com/image/fetch/w_1170,h_500,q_auto:best,f_auto,c_fill/https://www.engineersrule.com/wp-content/uploads/2016/09/dimxpert-5.png" alt="Designing" /></li>
+                        </ul>
+                    </div><!-- sp-content -->
+                    
+                </div><!-- sp-slideshow -->         
