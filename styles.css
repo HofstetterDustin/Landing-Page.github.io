@@ -1,50 +1,114 @@
-/* background website color */
-.container-fluid {
-    background-color: black;
+.top-nav-collapse{
+    background-color: rgb(58, 57, 57) !important;
+}
+.navbar{
+    padding-right: 1rem !important;
+    font-weight: 300;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0 0,.12);
+}
+a{
+    cursor: pointer;
+}
+.button{
+    align-items: flex-start;
+    text-align: center;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    font: 400 13.3333px Arial;
+    -webkit-writing-mode: horizontal-tb !important;
+}
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+    border: 0;
+}
+li{
+    display: list-item;
+    text-align: center;
+}
+.navbar-link{
+    color: rgb(172, 184, 175);
+    transition: .35s;
+    display: block;
+}
+.waves-effect{
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+    overflow: hidden;
+}
+form{
+    margin-top: 0em;
+}
+div{
+    display: block;
+}
+.jarallax{
+    height: 100vh;
+}
+.view{
+    position: relative;
+    cursor: default;
+}
+.view-jarallax{
+    background-image: none; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    z-index: 0; 
+    background-attachment: scroll;
+}
+/* background: url("https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg"); */
+
+/* LEVEL ONE */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100vh;
 }
 
-.back-img {
-    background-image: url("https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg");
-    height: 1000px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html,
+body,
+header,
+.intro-2 {
+  height: 700px;
 }
+                                    
 
-.rtcol {
-    display: flex; 
-    justify-content: end;
-   
-}
+/* LEVEL TWO */
 
-/* .jumbotron {
-    background-color: rgba(169, 211, 174, 0.726);
-} */
-
-.name {
+.construction {
+    background-color: gold;
     color: rgb(172, 184, 175);
     font-family: impact;
     font-weight: bold;
-    /* text :rgb(5, 110, 2); */
     text-shadow: 4px 6px rgb(7, 7, 7);
 }
+/* Progress Bar */
 
-.un-constr {
-    background-image: url("http://moziru.com/images/stripe-clipart-caution-16.jpg");
-}
+.progress-bar {
+    position: relative;
+    top: -5px;
+    width: 680px;
+    height: 5px;
+    background: #000;
+    animation: fullexpand 25s ease-out infinite;
+ }
 
-.const-bg {
-    background-color: black;
-}
-
-.const-words {
-    color: rgb(234, 250, 6);
-    font-weight: bold;
-    font-stretch: expanded;
-    font-family: monospace;
-    text-shadow: 2px 2px 2px rgb(92, 94, 73);
-}
 
 /* .d2 {} */
 
@@ -57,6 +121,7 @@
 
 .objCont {
     padding-left: 30px;
+    color: grey;
 }
 
 /* .d3 {} */
@@ -70,6 +135,7 @@
 
 .objContHOQ {
     padding-left: 30px;
+    color: gray;
 }
 
 .tech {
@@ -93,7 +159,7 @@
 
 /* Drop-Down Color Theme */
 
-a {
+/* a {
     text-decoration: none;
 }
 
@@ -103,46 +169,46 @@ nav {
 
 ul {
     background: rgb(224, 5, 5);     /* This must cancel any framework adjustments */
-    display: block;
+    /* display: block;
     justify-content: space-evenly;
         list-style: none;
         margin: 0;
         padding-left: 0;
-}
+} */ 
 
 /* Drop-Down Menu Styling */
 
-li {
+/* li {
         color: black;  
-        font-size: 20px;             /* font color */ 
-    background: rgb(71, 71, 71);
-        display: block;               /* vertical positioning of drop-down columns */
-        float: left;
+        font-size: 20px;             font color  */
+    /* background: rgb(71, 71, 71);
+        display: block;               vertical positioning of drop-down columns */
+        /* float: left;
         padding: 5px;                 /* spacing around the text in the drop-down */
-        position: relative;           /* spacing of the drop-down columns */
-        text-decoration: none;
+        /* position: relative;           spacing of the drop-down columns */ 
+        /* text-decoration: none;
     transition-duration: 0.7s;
-}
+} */
 
-li a {
+/* li a {
     color:rgb(242, 243, 242);
 }
 
 li:hover {
-    background: rgb(53, 248, 4);  /* hover color */
-    cursor: pointer;
+    background: rgb(53, 248, 4);  hover color */
+    /* cursor: pointer;
 }
 
 ul li ul {
         background: rgb(250, 3, 3);
-        visibility: hidden;                 /* hides the drop-down */
-    opacity: 0;
+        visibility: hidden;                 hides the drop-down */
+    /* opacity: 0;
     min-width: 5rem;
         position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;
-        left: 30px;                      /* adjusts the drop-down left position */
-}
+        left: 30px;                      adjusts the drop-down left position */
+/* }
 
 ul li:hover > ul,
 ul li:focus-within > ul,
@@ -166,4 +232,4 @@ ul li ul li {
     text-shadow: 2px 2px 2px rgb(5, 110, 2);
     min-height: 10px;
     justify-content: center;
-}
+} */
