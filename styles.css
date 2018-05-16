@@ -62,12 +62,12 @@ div{
     position: relative;
     cursor: default;
 }
-.view-jarallax{
-    background-image: none; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center center; 
-    z-index: 0; 
+.view-jarallax {
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 0;
     background-attachment: scroll;
 }
 /* background: url("https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg"); */
