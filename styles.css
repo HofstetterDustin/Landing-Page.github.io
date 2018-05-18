@@ -55,40 +55,25 @@ form{
 div{
     display: block;
 }
-.jarallax{
-    height: 100vh;
-}
-.view{
-    position: relative;
-    cursor: default;
-}
-.view-jarallax{
-    background-image: none; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center center; 
-    z-index: 0; 
-    background-attachment: scroll;
-}
+
 /* background: url("https://ak3.picdn.net/shutterstock/videos/8335423/thumb/1.jpg"); */
 
 /* LEVEL ONE */
+.obj {
 
-html,
-body,
-header,
-.jarallax {
-  height: 100vh;
 }
 
-html,
-body,
-header,
-.intro-2 {
-  height: 700px;
+.high {
+    background-image: url(https://www.rvinyl.com/Shared/Images/Product/Rwraps-reg-Brushed-Aluminum-Vinyl-Film-Wrap-Black/Black-Brushed-Aluminum-Vinyl-Wraps.jpg);
+    color: white;
 }
-                                    
 
+.tech {
+    background-image: url(https://www.cvrobotics.org/wp-content/uploads/2016/04/background-blue.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
 /* LEVEL TWO */
 
 .construction {
@@ -124,6 +109,46 @@ header,
     color: grey;
 }
 
+.obj1 {
+    visibility: visible; 
+    animation-name: fadeIn; 
+    animation-delay: 0.4s;
+}
+
+.mb-2 {
+    visibility: visible; 
+    animation-name: fadeInDown; 
+    animation-delay: 0.3s;
+}
+
+.mb-3 {
+    background-position: 50% 50%; 
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    /* background-image: url(" https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");  */
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    width: 1546.11px; 
+    height: 936px; 
+    overflow: hidden; 
+    pointer-events: none; 
+    margin-left: -539.553px; 
+    margin-top: 0px; 
+    visibility: visible;
+    animation-name: fadeIn; 
+    transform: translateY(0px) translateZ(0px);
+    animation-delay: 0.4s;
+
+}
+
+.intro-2 {
+    background-image: url(https://www.rvinyl.com/Shared/Images/Product/Rwraps-reg-Brushed-Aluminum-Vinyl-Film-Wrap-Black/Black-Brushed-Aluminum-Vinyl-Wraps.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+
 /* .d3 {} */
 
 .highlights {
@@ -138,13 +163,13 @@ header,
     color: gray;
 }
 
-.tech {
+/* .tech {
     min-height: 50px;
     background-color:  rgb(92, 94, 73, 0.2);
     color: rgb(144, 156, 146);
     text-shadow: 2px 2px 2px rgb(5, 110, 2);
     padding-left: 30px;
-}
+} */
 
 /* ToolBox header direction */
 .d4 {
