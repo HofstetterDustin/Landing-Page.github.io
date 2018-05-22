@@ -138,4 +138,102 @@
                         </ul>
                     </div><!-- sp-content -->
                     
-                </div><!-- sp-slideshow -->         
+                </div><!-- sp-slideshow --> 
+//continuing education//
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Navbar</span>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarCE" role="button">
+                            Continuing Education
+                        </a>
+                    </li>
+                    <ol>
+                        <li class="dropdown-menu-item" aria-labelledby="navbarCE">
+                            <a class="dropdown-item" href="#" id="bcw" role="button">
+                                Boise Code Works
+                            </a>
+                        </li>
+                    </ol>
+                        <li class="dropdown-menu" aria-labelledby="bcw">
+                            <a class="dropdown-item" href="#">Full-Stack Software Development Course</a>
+                            <a class="dropdown-item" href="#">13-Weeks / 500 Hours</a>
+                        </li>
+                            <a class="dropdown-menu-item" href="#"  id="Unity">
+                                Unity Gaming Engine
+                            </a>    
+                                <div class="dropdown-menu" aria-labelledby="Unity">
+                                    <a class="dropdown-item" href="#">A cross-platform game engine for computers, consoles, and mobile devices</a>
+                                    <a class="dropdown-item" href="#">Used to develop both 3D and 2D video games and simulations</a>
+                                </div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarCE">
+                            <a class="dropdown-itmes" href="#" id="Unity" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Unity Gaming Engine
+                            </a>
+                                
+                        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarCE">
+                            <a class="dropdown-items" href="#" id="MPP" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Microsoft Professional Program
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="MPP">
+                                    <a class="dropdown-item" href="#">Logical and systematic thought training</a>
+                                    <a class="dropdown-item" href="#">Base programming</a>
+                                    <a class="dropdown-item" href="#">Developing interactive webpages</a>
+                                    <a class="dropdown-item" href="#">Analyzing algorithms and data for efficiency</a>
+                                    <a class="dropdown-item" href="#">UI programming mindset</a>
+                                </div>
+                        </div>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarRp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Robotic Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarRp">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                    </div>
+            </nav>
+            <div class="row ">
+                <div class="col-sm-12 text-center ">
+                    <h1 class="font-weight-bold light-blue-text my-3 ">Current Projects</h1>
+<!-- Drop-down section -->
+                    <div class="navBlock row ">
+                        <div class="col-sm-4 ">
+<!--This div is controlling the nav direction-->
+                        <nav role="navigation "> 
+                            <ul>
+                                <li>Continuing Education
+                                    <ul>
+                                        <li>Boise Code Works
+                                            <p>I completed a 13-week full-stack software development course</p>
+                                        </li>
+                                        <li>Unity Gaming Engine
+                                            <p>Online education series through Unity</p>
+                                        </li>
+                                        <li>Microsoft Professional Programmer (MPP)
+                                            <p>3 month online certifacation course</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+        </div>        
